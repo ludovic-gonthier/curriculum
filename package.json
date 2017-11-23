@@ -1,0 +1,27 @@
+{
+  "name": "curriculum",
+  "version": "0.1.0",
+  "description": "My curriculum vitae",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludovic-gonthier/curriculum.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ludovic-gonthier/curriculum/issues"
+  },
+  "homepage": "https://github.com/ludovic-gonthier/curriculum#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-twig": "^1.1.1",
+    "merge-stream": "^1.0.1"
+  }
+}

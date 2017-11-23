@@ -1,0 +1,11 @@
+<section id={{ id }}>
+    <div class="container">
+        {% if header is defined %}
+        <header class="major">
+            <h2 id="{{ header_id }}">{{ header }}</h2>
+        </header>
+        {% endif %}
+
+        {% block content %}{% endblock %}
+    </div>
+</section>

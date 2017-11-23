@@ -1,0 +1,43 @@
+{% set icons = [{
+    'icon': 'fa-twitter',
+    'link': 'https://twitter.com/GonthierLudovic',
+    'label': 'Twitter',
+}, {
+    'icon': 'fa-github',
+    'link': 'https://github.com/ludovic-gonthier/',
+    'label': 'Github',
+}, {
+    'icon': 'fa-linkedin-square',
+    'link': 'https://www.linkedin.com/in/ludovic-gonthier-021b655a',
+    'label': 'LinkedIn',
+}] %}
+
+<section id="header">
+    <header>
+        <span class="image avatar"><img src="medias/avatar.jpg" alt="" /></span>
+        <h1 id="logo"><a href="/">Ludovic Gonthier</a></h2>
+        <p>Développeur Web</br>Freelance</p>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#professionnal-project">Projets professionnel</a></li>
+            <li><a href="#personal-project">Projets personel</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <ul class="icons">
+            {% for icon in icons %}
+            <li>
+                <a  href="{{ icon.link }}"
+                    class="icon {{ icon.icon }}"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <span class="label">{{ icon.label }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </footer>
+</section>

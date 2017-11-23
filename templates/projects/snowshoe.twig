@@ -1,0 +1,32 @@
+{% extends "section.twig" %}
+
+{% block content %}
+<header>
+    <h3>Snowshoe</h3>
+    <p>
+        <span class="icon rmargin fa-calendar"></span>Mai 2015 - Aujourd'hui
+    </p>
+</header>
+
+<p>Ce projet a commencé comme expérience de montée en compétence sur NodeJS couplé à du ReactJS, qui n'était pas encore si démocratisé à l'époque. Il m'a permit, au final des refactorisations, de me familiariser avec ce nouvel environnement.</p>
+<p>L'idée de Snowshoe est née d'un besoin que nous avions dans ma mission pour LeMonde.fr d'avoir plus de visibilité sur les Pull Requests que nous avions en attente sur l'ensemble de nos projets (une petite dizaines). Snowshoe propose un dashboard permettant de visualiser rapidement l'en-cours sur les PR en attente de code review en se pluggant à l'API de Github.</p>
+<p>Aujourd'hui le projet est utilisé quotidiennement par les équipes du Monde ainsi que par une vingtaine de personne en dehors.</p>
+
+<h5>Liens</h5>
+<ul class="actions">
+    <li class="4u 6u(small)"><a href="https://github.com/ludovic-gonthier/snowshoe" class="icon rmargin fa-github">Github</a></li>
+    <li class="4u"><a href="http://snowshoe.report" class="icon rmargin fa-external-link">Site Web</a></li>
+</ul>
+
+<h5>Technologies utilisées</h5>
+
+<ul class="feature-icons">
+    <li class="fa-code">NodeJS 7.4</li>
+    <li class="fa-code">ReactJS / Redux</li>
+    <li class="fa-cogs">Jest / Webpack / ESLint</li>
+    <li class="fa-code-fork">GIT / Github</li>
+    <li class="fa-cubes">Docker</li>
+    <li class="fa-exchange">RabbitMQ</li>
+    <li class="fa-database">Redis</li>
+</ul>
+{% endblock %}
